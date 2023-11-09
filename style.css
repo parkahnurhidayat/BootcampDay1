@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 40px 100px;
+    
+}
+nav h4{
+    font-size: 20px;
+    color:  rgb(38, 239, 239);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    margin: 0 5px;
+    font-size: large;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 40px;
+    align-items: center;
+}
+.profile h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:  rgb(38, 239, 239);
+}
+.profile h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.profile p{
+    color: gray;
+}
+.profile button{
+    display: block;
+    margin-top: 40px;
+    background-color: rgb(38, 239, 239);
+    color: white;
+    padding: 18px;
+    border-radius: 40px;
+    width: 150px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 40px;
+    margin: 50px 0px;
+}
+.about div{
+    padding: 10px 40px;
+}
+.about h1{
+    margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact form{
+    display: flex ;
+    flex-direction: column;    
+    width: 400px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(38, 239, 239);
+    
+}
